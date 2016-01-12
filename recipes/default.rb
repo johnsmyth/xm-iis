@@ -23,5 +23,5 @@ end
 
 template "#{node['iis']['docroot']}\\xm\\index.htm" do
   source 'index.erb'
-  variables :buzzwords => %w(DevOps Chef Azure Velocity Microsoft Speed Monitoring Culture Collaboration BigData Magic Automagic Science)
+  variables :buzzwords => %w(DevOps Chef Azure Velocity Microsoft Speed Monitoring Culture Collaboration BigData Magic Automagic Science CI CD)
 end
