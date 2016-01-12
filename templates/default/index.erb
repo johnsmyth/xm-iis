@@ -1,0 +1,15 @@
+<html>
+<head>
+  <title>Superpage</title>
+</head>
+<body>
+  <h1>
+    <%= node['xm-iis']['sites']['index']['heading'] %>
+  </h1>
+  <% @buzzwords.each do |buzzword| -%>
+    <div>
+      <h2><%= buzzword %>
+    </div>
+  <% end -%>
+</body>
+</html>
