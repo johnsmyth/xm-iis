@@ -4,6 +4,6 @@ maintainer_email 'you@example.com'
 license 'all_rights'
 description 'Installs/Configures xm-iis'
 long_description 'Installs/Configures xm-iis'
-version '1.1.0'
+version '1.2.0'
 
 depends 'iis'

@@ -1,4 +1,4 @@
-default['xm-iis']['sites']['index']['heading'] = "Lets all use Chef"
+default['xm-iis']['sites']['index']['heading'] = "Welcome to the Chef demo!"
 
 default['iis']['components'] = [
   "IIS-WebServer",
